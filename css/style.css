@@ -1,0 +1,62 @@
+body{
+	background-color: #FCE9D2;
+}
+.custom-style{
+	width: 343px;
+	margin-left: 24px;
+}
+hr{
+	border-color: #000;
+}
+.margin-align{
+	margin-left: 25%;
+	display: inline;
+}
+.margin-top{
+	margin-top: 1%;
+}
+.icon-class{
+	color: blue;
+}
+.inline{
+	display: inline-block;
+}
+h5{
+	display: inline-block;
+	margin-left: 47.5%;
+}
+.list{
+	border-bottom: 1px solid #000;
+	line-height: 40px;
+	font-size: 16px;
+	list-style-type: none;
+}
+.list-box{
+	
+}
+.list-container{
+	box-shadow: 5px 5px 3px #888888;
+	margin-top: 3%;
+}
+.edit-delete{
+	/*margin-right: 30px;*/
+	 /*position: relative;*/
+
+}
+.btn-align{
+	/*margin-left: 80%;*/
+	display: inline-block;
+	width: 120px;
+}
+.span-edit{
+	margin-right: 20px;
+	margin-top: 10px;
+	cursor: pointer;
+
+}
+.margin-left{
+	margin-left: 20px;
+}
+.footer{
+	margin-left:45%;margin-top:4%; color:#000;font-size:14px;font-style:bold;
+}
