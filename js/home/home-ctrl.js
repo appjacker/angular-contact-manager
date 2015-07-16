@@ -38,14 +38,10 @@ home.config(function($stateProvider, $urlRouterProvider) {
 	};
 
 	$scope.deleteContact = function(index){
-			$rootScope.myContacts.splice(index,1);
-			$scope.contacts = $rootScope.myContacts;
-			localStorageService.set("data", $scope.contacts);
-			toastr.success('Contact Deleted');
-
-			// localStorageService.remove("data");
-			// localStorageService.set("data", $rootScope.myContacts);
-			// console.log("delete", localStorageService.get("data"));
+		$rootScope.myContacts.splice(index,1);
+		$scope.contacts = $rootScope.myContacts;
+		localStorageService.set("data", $scope.contacts);
+		toastr.success('Contact Deleted');
 
 	};
 
